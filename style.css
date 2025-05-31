@@ -1,0 +1,154 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: monument;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#nav{
+    height:8em;
+    width: 100%;
+    /* background-color: red; */
+    align-items: center;
+    text-transform: uppercase;
+    position: absolute;
+}
+#list{
+    padding: 1.5em;
+    padding-left: 40em;
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+i{
+    color: black;
+    margin-left: 2em;
+}
+a{
+    color: gray;
+    text-decoration: none;
+}
+#blink:hover{
+    text-decoration: underline red;
+ }
+#blink2:hover{
+    text-decoration: underline red;
+ }
+#blink3:hover{
+    text-decoration: underline red;
+ }
+#line{
+    position: absolute;
+    height: 2px;
+    width:50em;
+    right: 0em;
+    top: 4em;
+    border: solid 1px gray;
+    background-color: gray;
+}
+#content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color:black;
+     clip-path: polygon(0 0, 33% 0, 65% 100%, 0 100%);
+}
+#p1{
+    height:25em;
+    width: 25em;
+    background-color: red;
+    position: absolute;
+    top: 8em;
+    left:20em;
+    clip-path: polygon(0 0, 30% 0, 100% 100%, 70% 100%);
+    transform: scale(1.2);
+}
+#p2{
+    height:25em;
+    width: 25em;
+    background-color: gray;
+    position: absolute;
+    top: 8em;
+    right:20em;
+    clip-path: polygon(0 0, 30% 0, 100% 100%, 70% 100%);
+    transform: scale(1.2);
+}
+img{
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+}
+#dl{
+    background-color: transparent;
+    height: 6em;
+    width: 60%;
+    position: absolute;
+    bottom: 2em;
+    left: 2em;
+    color: white;
+    display: flex;
+    align-items: baseline;
+    padding: 1em;
+}
+#dld{
+    background-color: transparent;
+    height: 2em;
+    width: 4em;
+    position: absolute;
+    left: 9em;
+    bottom: 1em;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+#s1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 900;
+}
+#s2{
+    color: red;
+    text-transform: uppercase;
+    align-items: center;
+    font-size: 2em;
+    font-weight: 900;
+}
+#dr{
+    background-color: transparent;
+    height: 8em;
+    width: 40%;
+    position: absolute;
+    bottom: 1em;
+    right: 2em;
+    color: black;
+    display: flex;
+    align-items: baseline;
+    padding: 1em;
+}
+#t1{position: absolute;
+    bottom: 1em;
+    right: 0.5em;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+#tsp{
+    color: red;
+}
+#tsp2{
+    color: gray;
+    font-size: smaller;
+}
