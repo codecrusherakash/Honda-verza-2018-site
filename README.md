@@ -8,7 +8,7 @@ Pure HTML & CSS (no frameworks, no responsiveness)<br>
 Beginner-friendly project structure
 
 🎯 Purpose:<br>
-Created as a personal front-end practice project to:,br>
+Created as a personal front-end practice project to:<br>
 Improve layout and styling skills<br>
 Learn how to structure HTML and CSS files<br>
 Build skills in HTML and CSS
